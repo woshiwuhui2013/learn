@@ -1,4 +1,7 @@
 
+
+fjlajfllfdslfdsafjdsjfdsjfjsdlafsaf
+=======
 #include "stdio.h"
 
 int show(){
@@ -10,3 +13,4 @@ int show(){
 
 void (*p)(int a , int b);
 p fun;
+
