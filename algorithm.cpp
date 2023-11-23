@@ -65,6 +65,15 @@ double fractionalKnapsack(vector<int> &wgt, vector<int> &val, int cap) {
 */
 
 /* 最大容量：贪心 */
+
+/*
+方案
+设数组长度为
+ ，两个隔板的组合数量（即状态总数）为
+
+ 个。最直接地，我们可以穷举所有状态，从而求得最大容量，时间复杂度为
+ 。
+*/
 int maxCapacity(vector<int> &ht) {
     // 初始化 i, j 分列数组两端
     int i = 0, j = ht.size() - 1;
