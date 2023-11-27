@@ -9,3 +9,8 @@ int fun(){
   printf("hello world/n");
 }
 
+#include "stdio.h"
+int fun(){
+ 
+  printf("hello world/n");
+}
